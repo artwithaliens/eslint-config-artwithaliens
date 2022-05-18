@@ -3,7 +3,7 @@
   "extends": ["./index"],
   "settings": {
     "react": {
-      "version": "latest"
+      "version": "detect"
     }
   },
   "rules": {
