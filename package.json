@@ -2,6 +2,13 @@
   "name": "eslint-config-artwithaliens",
   "version": "2.4.0",
   "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./lib/base": "./lib/base.js",
+    "./lib/typescript": "./lib/typescript.js",
+    "./package.json": "./package.json"
+  },
+  "author": "Eike Foken <eikefoken@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.59.9",
@@ -12,7 +19,6 @@
     "eslint-import-resolver-typescript": "^3.5.5",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-jsx-a11y": "^6.7.1",
-    "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
