@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-artwithaliens",
-  "version": "2.8.1",
-  "type": "module",
+  "version": "2.8.2",
+  "main": "index.js",
   "exports": {
     ".": "./index.js",
     "./lib/base": "./lib/base.js",
